@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: estimator
+Description: Description of estimator
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lirp_sen_msgs
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ccg/cch_ws/src/wheel_imu_ekf/cmake-build-debug/devel/setup.sh
