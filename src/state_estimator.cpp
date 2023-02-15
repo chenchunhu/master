@@ -15,8 +15,7 @@
     Eigen::Vector3d angular(rx, ry, rz);
 
     Eigen::Vector3d un_gyro = 0.5 * (gyro_0 + angular) - gyro_bias;
-    //TODO
-    Rot *= Eigen::Quaterniond(1, un_gyro(0) * 2 / timestamp, un_gyro(1) * 2 / timestamp,
+    //TODO    2 / timestamp,
                               un_gyro(2) * 2 / timestamp);
 
     Eigen::Vector3d un_acc_0 = Rot * (acc_0 - acc_bias);
